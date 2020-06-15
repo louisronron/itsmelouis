@@ -74,6 +74,7 @@ p {
     font-size: 5em;
     text-align: center;
     vertical-align: middle;
+    line-height: 5.8rem;
 }
 
 .subtitle-exploded {
@@ -87,7 +88,7 @@ p {
 
 .social-icon-light {
     color: white;
-    background-color: black;
+    /* background-color: black; */
     border: none;
     padding: 10px;
 }
