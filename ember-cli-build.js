@@ -12,8 +12,8 @@ module.exports = function(defaults) {
   app.import("vendor/jquery/jquery-3.5.1.min.js");
   app.import("vendor/popperjs/popper.min.js");
   app.import("vendor/bootstrap/bootstrap-4.5.0/js/bootstrap.min.js");
-  
 
+  
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
