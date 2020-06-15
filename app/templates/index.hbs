@@ -1,9 +1,17 @@
-<Navs::TopNav></Navs::TopNav>
+{{!-- top navigation --}}
+<Navs::TopNav />
 
+{{!-- page sections from hereon --}}
 
-<div class="container h-100">
-    <Sections::WelcomeSection/>
+<div class="container-fluid" style="height: 100%;">
+
+    {{!-- Welcome section --}}
+    <Sections::WelcomeSection class="welcome-section" />
+
+    {{!-- About section --}}
     <Sections::AboutSection />
-    <Sections::PortfolioSection />
-</div>
 
+    {{!-- Portfolio section --}}
+    <Sections::PortfolioSection />
+
+</div>
