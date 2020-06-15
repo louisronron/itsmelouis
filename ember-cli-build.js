@@ -7,7 +7,7 @@ module.exports = function(defaults) {
     // Add options here
   });
 
-  app.import("/bootstrap/bootstrap-greenyred.min.css");
+  app.import("vendor/bootstrap/bootstrap-greenyred.min.css");
 
   // Use `app.import` to add additional libraries to the generated
   // output files.
