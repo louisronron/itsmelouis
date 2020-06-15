@@ -1,11 +1,21 @@
 <div id="home" hidden></div>
-<Layouts::PageSection class="align-middle" ...attributes>
-    <div class="title-exploded">
-        Hi, I'm Louis.
-    </div>
-    <div class="subtitle-exploded">
-        Software Developer | Coffee Fanatic | Voracious Reader | Part-time Pianist
-        <br/>
-        <button class="btn btn-secondary">Follow Me</button>
-    </div>
+<Layouts::PageSection ...attributes>
+
+    <table class="w-100 h-100 text-center">
+        <tr>
+            <td class="w-100">
+                <span class="title-exploded">
+                    Hi, I'm Louis.
+                </span><br/>
+                <span class="subtitle-exploded">
+                    Software Developer | Coffee Fanatic | Voracious Reader <br/>| Part-time Pianist
+                    <br/><br/>
+                    <button class="social-icon-light" onclick="window.location.href='https://twitter.com/louisrronald'"><i class="fa fa-twitter"></i></button>
+                    <button class="social-icon-light" onclick="window.location.href='https://www.linkedin.com/in/louis-ronson-ronald-19960113/'"><i class="fa fa-linkedin"></i></button>
+                    {{!-- <button class="btn btn-secondary">Follow Me</button> --}}
+                </span>
+            </td>
+        </tr>
+    </table>
+
 </Layouts::PageSection>

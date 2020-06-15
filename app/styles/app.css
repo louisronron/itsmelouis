@@ -41,15 +41,8 @@ p {
 }
 
 .section-title {
-    /* font-family: 'Josefin Sans', sans-serif; */
-
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
-
-/* 
-    font-family: 'Questrial', sans-serif;
-
-    font-family: 'Ubuntu', sans-serif; */
 }
 
 .section-subtitle {
@@ -89,6 +82,14 @@ p {
     font-size: 1.5em;
     text-align: center;
     vertical-align: middle;
+}
+
+
+.social-icon-light {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
 }
 
 
