@@ -1,11 +1,11 @@
 {
-  "name": "its-me-louis-portfolio",
-  "version": "0.0.0",
+  "name": "itsmelouis.github.io",
+  "version": "1.0.0",
   "private": true,
-  "description": "Small description for its-me-louis-portfolio goes here",
-  "repository": "",
+  "description": "My personal work portfolio",
+  "repository": "https://github.com/louisronron/itsmelouis.github.io",
   "license": "MIT",
-  "author": "",
+  "author": "Louis Ronald",
   "directories": {
     "doc": "doc",
     "test": "tests"
