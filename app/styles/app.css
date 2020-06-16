@@ -24,10 +24,16 @@ p {
 
 
 /* Styles for cards */
-.card-title {
+.card-title, .card-header {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
+
+.card-header {
+    /* background-color: black; */
+    /* color: white; */
+}
+
 
 
 
