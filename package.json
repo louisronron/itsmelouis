@@ -1,7 +1,7 @@
 {
   "name": "itsmelouis.github.io",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "My personal work portfolio",
   "repository": "https://github.com/louisronron/itsmelouis.github.io",
   "license": "MIT",
