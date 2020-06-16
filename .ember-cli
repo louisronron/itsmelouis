@@ -7,5 +7,5 @@
   */
   "disableAnalytics": false,
 
-  "output-path": "myNewOutputDir/"
+  "output-path": "docs"
 }
