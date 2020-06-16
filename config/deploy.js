@@ -26,12 +26,12 @@ module.exports = function(deployTarget) {
   // a promise that resolves with the ENV object instead of returning the
   // ENV object synchronously.
 
-  // ENV.git = {
-  //   repo: 'git@github.com:ef4/ember-cli-deploy-git.git',
-  //   branch: 'deploys',
-  //   worktreePath: '/tmp/ef4-deploy',
-  //   commitMessage: 'Deployed %@'
-  // };
+  ENV.git = {
+    repo: 'https://github.com/louisronron/itsmelouis.github.io.git',
+    branch: 'gh-pages',
+    worktreePath: '/tmp/ef4-deploy',
+    commitMessage: 'Deployed %@'
+  };
 
 
   return ENV;
